@@ -3,6 +3,7 @@ import React from 'react'
 import { AiOutlineSearch } from 'react-icons/ai'
 import Bell from '../assets/Bell.png'
 import Message from '../assets/message.png'
+import bolupic from '../assets/bolupic.png'
 
 function Header() {
     return (
@@ -10,13 +11,13 @@ function Header() {
             <div>
                 <div className='flex space-x-3 rounded-2xl px-14 py-1 border '>
                     
-                    <span ><AiOutlineSearch />  </span> <p>Search For Users</p> </div>
+                    <span ><AiOutlineSearch />  </span> <p className='-mt-1 mx-1'>Search For Users</p> </div>
 
             </div>
-            <div className='flex h-6 space-x-4'>
-                <img src={Bell}  className='px-4 '/>
-                <img src={Message} className='px-4 '/>
-               <p> Bolu Odusanya </p>
+            <div className='flex h-5 space-x-3'>
+                <img src={Bell} alt=' bell'  className='px-4 '/>
+                <img src={Message} alt='msg'  className='px-4 '/>
+               <p className='flex '> <span className='-mt-1'> Bolu Odusanya </span> <img src={bolupic} alt=' bolu' className='mx-2 '/> </p>
             </div>
         </div>
     )

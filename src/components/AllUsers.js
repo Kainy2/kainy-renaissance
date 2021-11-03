@@ -1,7 +1,6 @@
 // /** @format */
 import React from 'react'
 import { UserItems } from '../utils/data'
-import Layout from './Layout'
 import {GoVerified} from 'react-icons/go'
 
 
@@ -32,7 +31,7 @@ function AllUsers() {
                             <p> {item.name} </p>
                             <p> {item.email} </p>
                             <p> {item.phone} </p>
-                            <p className="flex"> <GoVerified className='text-blue-600' /> {item.status} </p>
+                            <p className="flex"> <GoVerified className='text-blue-600' /> <span className='-mt-1 mx-1 '> {item.status} </span> </p>
                             <p className='bg-red-200 px-4 py-1'> {item.verif} </p>
                             <p> {item.joined} </p>
                         </div>
