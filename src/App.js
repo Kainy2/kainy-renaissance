@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from "./components/Main"
+import Sidebar from "./components/Sidebar"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='border m-10 flex p-10 w-screen justify-between'>
+      <div style={{width: '320px'}} className= 'border w-3/12 px-auto'>
+        <Sidebar />
+      </div>
+      <div className= 'border w-full px-auto'>
+        <Main />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
