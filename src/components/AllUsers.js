@@ -5,7 +5,6 @@ import {GoVerified} from 'react-icons/go'
 
 
 function AllUsers() {
-    const totalUsers = '300,568'
     return (
         <div>
             <div className='flex space-x-6'>
