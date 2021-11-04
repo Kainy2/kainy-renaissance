@@ -14,11 +14,11 @@ function AllUsers() {
             </div>
             <div className = 'shadow p-2'>
 
-                <div className="flex justify-evenly font-semibold my-2 mx-16 space-x-28 p-2">
+                <div className="flex font-semibold my-2 mx-16 space-x-28 p-2">
                     {/* <p className='' ></p> */}
                     <p className='pl-16'>Name</p>
                     <p className=' pl-8 pr-10'>Email</p>
-                    <p className='w-32 border'> Phone Number</p>
+                    <p className='w-32'> Phone Number</p>
                     <p className=''>Status</p>
                     <p className=''>Verification</p>
                     <p className='mr-'>Joined</p>

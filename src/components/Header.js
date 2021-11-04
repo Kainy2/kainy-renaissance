@@ -14,10 +14,10 @@ function Header() {
                     <span ><AiOutlineSearch />  </span> <p className='-mt-1 mx-1'>Search For Users</p> </div>
 
             </div>
-            <div className='flex h-5 space-x-1'>
-                <img src={Bell} alt=' bell'  className='px-4 '/>
+            <div className='flex h-5  '>
+                <img src={Bell} alt=' bell' className='px-4 '/>
                 <img src={Message} alt='msg'  className='px-4 '/>
-               <p className='flex '> <span className='w-28 text-right text-sm'> Bolu Odusanya </span> <img src={bolupic} alt=' bolu' className='mx-2 w-5 h-5 '/> </p>
+               <p className='flex '> <span className='w-28 text-right pt-1 text-sm'> Bolu Odusanya </span> <img src={bolupic} alt='bolu' className='mx-2 w-8 h-8'/> </p>
             </div>
         </div>
     )
