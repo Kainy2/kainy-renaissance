@@ -2,7 +2,7 @@
 import React from 'react'
 import { UserItems } from '../utils/data'
 import {GoVerified} from 'react-icons/go'
-import chris from '../assets/chris.png'
+import ChrisFlag from '../assets/Chris-flag.png'
 
 function AllUsers() {
     return (
@@ -30,7 +30,7 @@ function AllUsers() {
                         return (
                             <div className='flex space-x-20 my-2 p-2'>
                                 <input type='checkbox' className=' w-4 h-4' />
-                                <p className='flex h-6 mx-2'> <img src={chris} alt='chris' /> <span className='mx-2'> {item.name} </span> </p>
+                                <p className='flex h-6 mx-2'> <img src={ChrisFlag} alt='Chris' /> <span className='mx-2'> {item.name} </span> </p>
                                 <p> {item.email} </p>
                                 <p> {item.phone} </p>
                                 <p className="flex"> <GoVerified className='text-blue-600' /> <span className='-mt-1 mx-1 '> {item.status} </span> </p>
@@ -42,7 +42,7 @@ function AllUsers() {
                         return (
                             <div className='flex space-x-20 my-2 p-2'>
                                 <input type='checkbox' className=' w-4 h-4' />
-                                <p className='flex h-6 mx-2'> <img src={chris} alt='chris' /> <span className='mx-2'> {item.name} </span> </p>
+                                <p className='flex h-6 mx-2'> <img src={ChrisFlag} alt='Chris' /> <span className='mx-2'> {item.name} </span> </p>
                                 <p> {item.email} </p>
                                 <p> {item.phone} </p>
                                 <p className="flex"> <GoVerified className='text-blue-600' /> <span className='-mt-1 mx-1 '> {item.status} </span> </p>
