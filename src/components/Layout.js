@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 function Layout({children}) {
     return (
-        <div>
+        <div className=''>
             <Header />
             <div className='px-5'>
             {children}

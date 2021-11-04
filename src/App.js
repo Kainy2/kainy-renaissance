@@ -4,8 +4,8 @@ import Sidebar from "./components/Sidebar"
 
 const App = () => {
   return (
-    <div className='border m-10 flex p-10 w-screen justify-between'>
-      <div style={{width: '320px'}} className= 'border w-3/12 px-auto'>
+    <div className=' flex justify-between'>
+      <div style={{minWidth: '320px'}} className= 'border w-4/12 px-auto'>
         <Sidebar />
       </div>
       <div className= 'border w-full px-auto'>

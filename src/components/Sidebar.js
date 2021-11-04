@@ -10,7 +10,7 @@ import SettingsMain from '../assets/SettingsMain.png'
 
 const Sidebar = () => {
     return (
-        <div style={{backgroundColor: '#484BE8'}} className='h-screen pb-16 pt-32'>
+        <div style={{backgroundColor: '#484BE8'}} className='h-full pb-32 pt-32'>
                         <p className='flex text-white pl-4 m-4 py-3'><img src={Dashboard} alt={`DashBoard`} />
                        <span className='mx-2'> Dashboard </span>
                     </p>
